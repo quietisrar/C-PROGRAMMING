@@ -1,0 +1,2 @@
+
+    printf("\nenter your age");
