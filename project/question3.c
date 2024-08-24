@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     float angle1, angle2, third_angle;
 
     // Input the two angles
@@ -11,12 +12,14 @@ int main() {
     scanf("%f", &angle2);
 
     // Check if the angles are valid
-    if (angle1 <= 0 || angle2 <= 0) {
+    if (angle1 <= 0 || angle2 <= 0)
+    {
         printf("Angles must be positive numbers.\n");
         return 1;
     }
 
-    if (angle1 + angle2 >= 90) {
+    if (angle1 + angle2 >= 90)
+    {
         printf("The sum of the two angles must be less than 90 degrees.\n");
         return 1;
     }
@@ -29,4 +32,3 @@ int main() {
 
     return 0;
 }
-
