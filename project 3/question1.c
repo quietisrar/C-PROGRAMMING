@@ -2,13 +2,11 @@
 void main()
 {
     int i;
-    char ch = 'a';
+    char ch= 'a';
 
-    do{
-
-        printf("%c, ",ch);
+    do
+    {
+        printf("%c ,", ch);
         ch = ch+4;
-
     }while(ch<='z');
-
 }

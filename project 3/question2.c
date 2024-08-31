@@ -2,16 +2,14 @@
 void main()
 {
     int i,count=0,num;
-    
-    printf("Enter Num:- ");
+    printf("enter the num:-");
     scanf("%d",&num);
 
     while(num!=0)
     {
-        num = num/10;
+        num=num/10;
         count++;
+
     }
-
-    printf("Num of count is:- %d",count);
-
+    printf("number of count is %d",count);
 }

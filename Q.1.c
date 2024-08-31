@@ -7,3 +7,4 @@ int main()
     printf("\nsymga high school");
     return 0;
 }
+
